@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter | Mini Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="select">
+            <h3>Font size</h3>
+        <select name="fonts" class="filter-fonts">
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="18">18</option>
+            <option value="24">24</option>
+            <option value="32">32</option>
+            <option value="48">48</option>
+            <option value="54">54</option>
+            <option value="62">62</option>
+            <option value="72">72</option>
+        </select>
+        </div>
+        <h1>Live Character Counter</h1>
+        <textarea name="" id="" placeholder="Type something here..." onkeyup="countLetters()"></textarea>
+        <p>Total Characters: <span class="counter">0</span></p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
